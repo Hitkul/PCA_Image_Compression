@@ -36,7 +36,6 @@ print(temp.shape)
 m = interp1d([temp.min(),temp.max()],[0,1])
 print('rescaling image this may take some time....')
 for i in range(temp.shape[0]):
-    print(i)
     for j in range(temp.shape[1]):
         for k in range(temp.shape[2]):
             temp[i][j][k] = float(m(temp[i][j][k]))
