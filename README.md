@@ -1,1 +1,1 @@
-USing Principle Component Analysis for Image Compression.
+Using Principle Component Analysis for Image Compression.
